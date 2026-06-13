@@ -1,28 +1,41 @@
-<svg width="460" height="150" viewBox="0 0 460 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="760" height="140" viewBox="0 0 760 140" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Triumph Empowerment Centre logo">
   <defs>
-    <linearGradient id="red" x1="165" y1="18" x2="165" y2="100" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF2020"/><stop offset="1" stop-color="#C90000"/>
+    <linearGradient id="tecRed" x1="105" y1="8" x2="105" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF1F1F"/>
+      <stop offset="1" stop-color="#C90000"/>
     </linearGradient>
-    <linearGradient id="orange" x1="78" y1="32" x2="121" y2="106" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFB000"/><stop offset="1" stop-color="#FF6A00"/>
+    <linearGradient id="tecOrange" x1="24" y1="28" x2="120" y2="128" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF9D00"/>
+      <stop offset="1" stop-color="#F15A00"/>
     </linearGradient>
-    <linearGradient id="blue" x1="220" y1="43" x2="184" y2="108" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0789EA"/><stop offset="1" stop-color="#0559B8"/>
+    <linearGradient id="tecBlue" x1="150" y1="34" x2="122" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#168BE8"/>
+      <stop offset="1" stop-color="#034EA2"/>
     </linearGradient>
   </defs>
-  <g transform="translate(12 8) scale(.86)">
-    <circle cx="162" cy="20" r="16" fill="url(#red)"/>
-    <path d="M132 38 C145 48 153 62 161 78 C170 61 184 48 203 39 C188 71 184 99 194 132 C178 119 168 104 162 88 C155 106 144 121 128 134 C136 101 134 72 132 38Z" fill="url(#red)"/>
-    <circle cx="90" cy="60" r="13" fill="url(#orange)"/>
-    <path d="M45 94 C63 67 92 64 125 87 C101 95 82 110 67 133 C64 113 56 101 45 94Z" fill="url(#orange)"/>
-    <circle cx="235" cy="62" r="13" fill="url(#blue)"/>
-    <path d="M203 88 C231 65 260 70 279 96 C260 99 243 110 230 132 C225 112 216 99 203 88Z" fill="url(#blue)"/>
-    <path d="M68 124 C100 112 141 121 177 102 C191 95 201 85 211 83 C221 81 229 88 221 97 C210 111 190 121 164 128 C133 136 99 131 68 124Z" fill="#E60012"/>
-    <path d="M62 132 C99 137 124 154 167 143 C193 136 211 119 229 100 C237 92 249 94 254 101 C230 133 198 159 155 166 C117 171 88 153 48 150 C51 143 56 137 62 132Z" fill="url(#orange)"/>
-    <path d="M198 104 C209 97 214 89 221 82" stroke="#E60012" stroke-width="9" stroke-linecap="round"/>
-    <path d="M214 108 C226 101 230 94 236 88" stroke="#E60012" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- people / empowerment mark -->
+  <g transform="translate(10 7)">
+    <circle cx="96" cy="16" r="12" fill="url(#tecRed)"/>
+    <path d="M75 39 C84 31 92 29 101 36 C110 44 118 58 128 78 C113 70 103 61 96 50 C89 64 78 75 62 86 C66 66 68 50 75 39Z" fill="url(#tecRed)"/>
+
+    <circle cx="39" cy="46" r="10" fill="url(#tecOrange)"/>
+    <path d="M4 82 C22 58 47 56 70 76 C52 79 34 88 18 105 C16 94 11 87 4 82Z" fill="url(#tecOrange)"/>
+
+    <circle cx="155" cy="51" r="10" fill="url(#tecBlue)"/>
+    <path d="M123 76 C144 56 170 61 188 85 C171 85 153 93 137 108 C135 94 131 84 123 76Z" fill="url(#tecBlue)"/>
+
+    <!-- supporting hand -->
+    <path d="M22 104 C49 91 77 92 106 102 C120 106 131 99 142 88 C146 84 152 84 155 88 C159 92 158 98 153 102 C137 119 119 127 93 123 C68 119 45 113 22 129 C15 134 8 124 14 117 C17 113 19 109 22 104Z" fill="url(#tecRed)"/>
+    <path d="M15 117 C45 105 72 110 99 117 C117 122 134 117 151 102 C139 122 117 135 86 130 C57 125 33 119 6 134 C6 126 9 121 15 117Z" fill="url(#tecOrange)"/>
+    <path d="M108 98 C123 103 139 95 151 84" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M124 102 C138 100 149 93 158 84" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
   </g>
-  <text x="162" y="66" font-family="Inter, Montserrat, Arial, sans-serif" font-size="38" font-weight="900" letter-spacing="5" fill="#D40000">TRIUMPH</text>
-  <text x="165" y="96" font-family="Inter, Montserrat, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="4" fill="#D40000">EMPOWERMENT CENTRE</text>
-  <text x="168" y="125" font-family="Inter, Montserrat, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="5" fill="#0A376D">EMPOWER • ENRICH • ELEVATE</text>
+
+  <!-- wordmark -->
+  <g transform="translate(220 28)">
+    <text x="0" y="34" font-family="Montserrat, Arial, sans-serif" font-size="36" font-weight="900" letter-spacing="5" fill="#D50000">TRIUMPH</text>
+    <text x="1" y="65" font-family="Montserrat, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="5" fill="#D50000">EMPOWERMENT CENTRE</text>
+    <text x="2" y="96" font-family="Montserrat, Arial, sans-serif" font-size="13" font-weight="900" letter-spacing="6" fill="#073D70">EMPOWER • ENRICH • ELEVATE</text>
+  </g>
 </svg>
