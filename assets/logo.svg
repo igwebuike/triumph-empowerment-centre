@@ -1,10 +1,28 @@
-<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="220" height="220" rx="52" fill="#072A2A"/>
-  <circle cx="110" cy="110" r="82" fill="#0D5C52"/>
-  <path d="M61 126c28 17 72 17 100-18" stroke="#F4C542" stroke-width="12" stroke-linecap="round"/>
-  <path d="M110 46v92" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
-  <path d="M75 79c18-23 52-23 70 0" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
-  <path d="M89 104c12-13 30-13 42 0" stroke="#F4C542" stroke-width="11" stroke-linecap="round"/>
-  <path d="M68 157h84" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
-  <text x="110" y="194" text-anchor="middle" font-family="Inter, Arial" font-weight="800" font-size="26" fill="#F4C542">TEC</text>
+<svg width="460" height="150" viewBox="0 0 460 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="red" x1="165" y1="18" x2="165" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF2020"/><stop offset="1" stop-color="#C90000"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="78" y1="32" x2="121" y2="106" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB000"/><stop offset="1" stop-color="#FF6A00"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="220" y1="43" x2="184" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0789EA"/><stop offset="1" stop-color="#0559B8"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(12 8) scale(.86)">
+    <circle cx="162" cy="20" r="16" fill="url(#red)"/>
+    <path d="M132 38 C145 48 153 62 161 78 C170 61 184 48 203 39 C188 71 184 99 194 132 C178 119 168 104 162 88 C155 106 144 121 128 134 C136 101 134 72 132 38Z" fill="url(#red)"/>
+    <circle cx="90" cy="60" r="13" fill="url(#orange)"/>
+    <path d="M45 94 C63 67 92 64 125 87 C101 95 82 110 67 133 C64 113 56 101 45 94Z" fill="url(#orange)"/>
+    <circle cx="235" cy="62" r="13" fill="url(#blue)"/>
+    <path d="M203 88 C231 65 260 70 279 96 C260 99 243 110 230 132 C225 112 216 99 203 88Z" fill="url(#blue)"/>
+    <path d="M68 124 C100 112 141 121 177 102 C191 95 201 85 211 83 C221 81 229 88 221 97 C210 111 190 121 164 128 C133 136 99 131 68 124Z" fill="#E60012"/>
+    <path d="M62 132 C99 137 124 154 167 143 C193 136 211 119 229 100 C237 92 249 94 254 101 C230 133 198 159 155 166 C117 171 88 153 48 150 C51 143 56 137 62 132Z" fill="url(#orange)"/>
+    <path d="M198 104 C209 97 214 89 221 82" stroke="#E60012" stroke-width="9" stroke-linecap="round"/>
+    <path d="M214 108 C226 101 230 94 236 88" stroke="#E60012" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <text x="162" y="66" font-family="Inter, Montserrat, Arial, sans-serif" font-size="38" font-weight="900" letter-spacing="5" fill="#D40000">TRIUMPH</text>
+  <text x="165" y="96" font-family="Inter, Montserrat, Arial, sans-serif" font-size="17" font-weight="900" letter-spacing="4" fill="#D40000">EMPOWERMENT CENTRE</text>
+  <text x="168" y="125" font-family="Inter, Montserrat, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="5" fill="#0A376D">EMPOWER • ENRICH • ELEVATE</text>
 </svg>

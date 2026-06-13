@@ -11,50 +11,47 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <nav class="nav">
-    <a class="brand" href="#top" aria-label="Triumph Empowerment Centre home">
-      <img src="assets/logo.svg" alt="Triumph Empowerment Centre logo" />
-      <span>Triumph Empowerment Centre</span>
-    </a>
-    <div class="navlinks">
-      <a href="#services">Services</a><a href="#impact">Impact</a><a href="#partners">Partners</a><a href="#contact">Contact</a>
-    </div>
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Triumph Empowerment Centre home"><img src="assets/logo.svg" alt="Triumph Empowerment Centre logo"></a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a class="active" href="#top">Home</a><a href="#services">Services</a><a href="#impact">Impact</a><a href="#partners">Partners</a><a href="#about">About Us</a><a href="#contact">Contact</a>
+    </nav>
     <a class="btn small" href="#apply">Apply Now</a>
-  </nav>
+  </header>
 
   <main id="top">
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Microcredit • MSME Growth • Community Empowerment</p>
-        <h1>Inclusive finance for people building real businesses.</h1>
+        <h1>Inclusive finance for people building real businesses<span>.</span></h1>
         <p class="lead">Triumph Empowerment Centre helps entrepreneurs, shop owners, artisans, low-income earners, SMEs and MSMEs access flexible credit, savings support, payment services and financial guidance.</p>
-        <div class="actions"><a class="btn" href="#apply">Request Support</a><a class="btn ghost" href="#partners">Partner With Us</a></div>
-        <div class="trust"><span>Based in Aba, Abia State</span><span>Flexible repayment</span><span>Community-first model</span></div>
+        <div class="actions"><a class="btn" href="#apply">Request Support <em>→</em></a><a class="btn ghost" href="#partners">Partner With Us <em>→</em></a></div>
+        <div class="trust"><span>📍 Based in Aba, Abia State</span><span>💳 Flexible repayment</span><span>👥 Community-first model</span></div>
       </div>
-      <div class="hero-card">
-        <div class="metric"><b>₦300M</b><span>Target startup funding</span></div>
-        <div class="metric"><b>1,300+</b><span>Target new quality relationships/month</span></div>
-        <div class="metric"><b>85%</b><span>6-month client return goal</span></div>
+      <div class="hero-card" aria-label="Key goals">
+        <div class="metric red"><i>💼</i><div><b>₦300M</b><span>Target startup funding</span></div></div>
+        <div class="metric orange"><i>👥</i><div><b>1,300+</b><span>Target new quality relationships/month</span></div></div>
+        <div class="metric blue"><i>📈</i><div><b>85%</b><span>6-month client return goal</span></div></div>
       </div>
     </section>
 
-    <section class="section intro">
-      <div><p class="eyebrow">Our mission</p><h2>Make credit, savings and payment services painless for underserved communities.</h2></div>
+    <section id="about" class="section intro">
+      <div><p class="eyebrow">Our mission</p><h2>Make credit, savings and payment services painless for underserved communities<span>.</span></h2></div>
       <p>We are building a trusted empowerment platform that combines local relationships, responsible lending and modern digital access so customers can grow businesses, manage repayment and create sustainable wealth.</p>
     </section>
 
     <section id="services" class="section">
-      <p class="eyebrow">What we offer</p><h2>Financial services designed around everyday business needs.</h2>
+      <p class="eyebrow">What we offer</p><h2>Financial services designed around everyday business needs<span>.</span></h2>
       <div class="grid cards">
-        <article><h3>Micro Loans</h3><p>Accessible funding for traders, artisans, SMEs, MSMEs and economically active individuals.</p></article>
-        <article><h3>Savings Support</h3><p>Simple savings products that help customers build discipline and improve financial resilience.</p></article>
-        <article><h3>Bill & Utility Payments</h3><p>Fast payment support for daily business and household needs through office and digital channels.</p></article>
-        <article><h3>Business Empowerment</h3><p>Customer education, repayment guidance and relationship-based support for long-term growth.</p></article>
+        <article><div class="icon red">₦</div><h3>Micro Loans</h3><p>Accessible funding for traders, artisans, SMEs, MSMEs and economically active individuals.</p></article>
+        <article><div class="icon orange">☆</div><h3>Savings Support</h3><p>Simple savings products that help customers build discipline and improve financial resilience.</p></article>
+        <article><div class="icon blue">▣</div><h3>Bill & Utility Payments</h3><p>Fast payment support for daily business and household needs through office and digital channels.</p></article>
+        <article><div class="icon green">↗</div><h3>Business Empowerment</h3><p>Customer education, repayment guidance and relationship-based support for long-term growth.</p></article>
       </div>
     </section>
 
     <section id="impact" class="impact">
-      <div><p class="eyebrow">The bigger vision</p><h2>From microcredit NGO to a trusted financial solution driver in Africa.</h2></div>
+      <div><p class="eyebrow">The bigger vision</p><h2>From microcredit NGO to a trusted financial solution driver in Africa<span>.</span></h2><div class="stripe"></div></div>
       <div class="impact-list">
         <div><b>01</b><span>Fight poverty through inclusive access to capital.</span></div>
         <div><b>02</b><span>Support youth, women, traders and underbanked entrepreneurs.</span></div>
@@ -63,26 +60,26 @@
     </section>
 
     <section id="partners" class="section split">
-      <div><p class="eyebrow">For partners & investors</p><h2>A platform ready for community growth, governance and scale.</h2><p>Triumph is positioned around responsible capital deployment, customer-centric operations, transparent management and partnerships with financial institutions, service providers and community leaders.</p></div>
+      <div><p class="eyebrow">For partners & investors</p><h2>A platform ready for community growth, governance and scale<span>.</span></h2><p>Triumph is positioned around responsible capital deployment, customer-centric operations, transparent management and partnerships with financial institutions, service providers and community leaders.</p></div>
       <div class="panel"><h3>Partnership focus</h3><ul><li>Credit capital and investor partnerships</li><li>Digital loan request and repayment systems</li><li>Agent banking and community acquisition</li><li>Financial literacy and MSME support programs</li></ul></div>
     </section>
 
     <section id="apply" class="apply">
-      <div><p class="eyebrow">Get started</p><h2>Request a loan, savings support, or partnership call.</h2><p>Use this form placeholder for launch. Connect it later to Formspree, Tally, Airtable, or your backend.</p></div>
+      <div><p class="eyebrow">Get started</p><h2>Request a loan, savings support, or partnership call<span>.</span></h2><p>Use this form to tell us what you need. We will get back to you shortly.</p></div>
       <form onsubmit="event.preventDefault(); alert('Thank you. Triumph Empowerment Centre will contact you shortly.');">
-        <input required placeholder="Full name" />
-        <input required type="tel" placeholder="Phone number" />
+        <div class="form-row"><input required placeholder="Full name" /><input required type="tel" placeholder="Phone number" /></div>
         <select required><option value="">I am interested in...</option><option>Loan support</option><option>Savings</option><option>Bill payment</option><option>Partnership / Investment</option></select>
         <textarea placeholder="Tell us briefly what you need"></textarea>
-        <button class="btn" type="submit">Submit Request</button>
+        <button class="btn" type="submit">Submit Request <em>→</em></button>
       </form>
     </section>
   </main>
 
   <footer id="contact">
-    <div><img src="assets/logo.svg" alt="Triumph Empowerment Centre logo" /><p>Quality Credit Services for community empowerment.</p></div>
-    <div><b>Contact</b><p>No. 6 Omenazu Street, Aba, Abia State<br/>08036768828<br/>m.gdivineconnect2@gmail.com</p></div>
-    <div><b>Suggested domain</b><p>triumphempowerment.org<br/>triumphcredit.org<br/>tecempowerment.org</p></div>
+    <div><img src="assets/logo.svg" alt="Triumph Empowerment Centre logo"><p>Quality financial services. Stronger communities. Sustainable futures.</p></div>
+    <div><b>Contact Us</b><p>No. 6 Omenazu Street, Aba, Abia State.<br/>08036768828<br/>m.gdivineconnect2@gmail.com</p></div>
+    <div><b>Quick Links</b><p><a href="#services">Services</a><br/><a href="#impact">Impact</a><br/><a href="#about">About Us</a><br/><a href="#contact">Contact</a></p></div>
+    <div><b>Follow Us</b><p class="socials"><span>f</span><span>◎</span><span>in</span></p></div>
   </footer>
 </body>
 </html>
